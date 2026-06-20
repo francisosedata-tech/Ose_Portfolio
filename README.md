@@ -10,7 +10,7 @@
 ### Real Estate Growth Analysis Dashboard
 
 **Dashboard 1: Overview & Key Metrics**
-![Real Estate Growth Analysis Dashboard 1](images/real-estate-dashboard1.png)
+![Real Estate Growth Analysis Dashboard 1](Real Estate dashboard2.png)
 
 **Key Insights:**
 - Total Customers: 8K | Churned Customers: 3K | Churn Rate: 42.69%
