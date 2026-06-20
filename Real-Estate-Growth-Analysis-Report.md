@@ -4,7 +4,7 @@
 **Date:** June 2026  
 **Project:** Internship Data Analysis Project
 
-![Real Estate Growth Dashboard 1](images/real-estate-dashboard1.png)
+![Real Estate Growth Dashboard 1](Real Estate dashboard2.png)
 
 ## Executive Summary
 
