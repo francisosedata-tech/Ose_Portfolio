@@ -48,6 +48,3 @@
 - LinkedIn: [@Francis Ose] [https://www.linkedin.com/in/ose-francis-0a3796411?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
 - Email: francisose.data@gmail.com
 
----
-
-**"The world is my stage. I’m blessed — every man, woman, boy and girl will hear my name."**
