@@ -48,3 +48,27 @@
 - LinkedIn: [@Francis Ose] [https://www.linkedin.com/in/ose-francis-0a3796411?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
 - Email: francisose.data@gmail.com
 
+
+
+
+### Teen Mental Wellbeing Analysis (Power BI + SQL)
+**Project Overview:** Analyzed teen mental health dataset to explore correlations between social media usage, academic performance, sleep, stress, anxiety, addiction, and depression rates. Delivered interactive Power BI dashboards for insights and recommendations.
+
+![Teen Mental Wellbeing Dashboard](path/to/first-image.jpg)  
+![Academic Performance Dashboard](path/to/second-image.jpg)
+
+**Key Insights:**
+- Overall depression rate: **2.58%** (with gender and social media usage breakdowns).
+- Females show higher depression rates; high social media usage correlates with increased stress/anxiety/addiction.
+- Moderate health challenges present — emotional pressure noted but not yet critical.
+- Platform usage: Instagram, TikTok dominant.
+- Academic performance shows slight variations by social media levels and age groups.
+
+**Recommendations:**
+- Promote balanced social media habits and sleep hygiene education.
+- Targeted interventions for high-usage teens and females.
+- Further analysis on causal factors and intervention effectiveness.
+
+**Tech Stack:** Power BI, DAX, Power Query, SQL  
+**View Full Report:** [Teen-Mental-Health-Analysis-Report.md](link-to-report)  
+**Files:** [Project Folder](link-to-folder)
