@@ -51,6 +51,7 @@
 
 
 
+
 ### Teen Mental Wellbeing Analysis (Power BI + SQL)
 **Project Overview:** Analyzed teen mental health dataset to explore correlations between social media usage, academic performance, sleep, stress, anxiety, addiction, and depression rates. Delivered interactive Power BI dashboards for insights and recommendations.
 
