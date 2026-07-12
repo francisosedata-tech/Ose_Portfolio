@@ -57,6 +57,9 @@
 ![Teen Mental Wellbeing Dashboard](https://github.com/francisosedata-tech/Ose_Portfolio/blob/47d58b01bfd0474e0b2153b23a473c7f556e95bb/ccb740e6-9e5c-4ac6-8d8f-7a843d147e86.jpeg)  
 ![Academic Performance Dashboard](path/to/second-image.jpg)
 
+
+**Dataset:** [Download teen_mental_health_dataset.csv](Teen-Mental-Health-Project/teen_mental_health_dataset.csv) 
+
 **Key Insights:**
 - Overall depression rate: **2.58%** (with gender and social media usage breakdowns).
 - Females show higher depression rates; high social media usage correlates with increased stress/anxiety/addiction.
