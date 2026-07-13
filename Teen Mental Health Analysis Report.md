@@ -42,7 +42,7 @@ SELECT
     COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*) AS depression_rate_pct
 FROM teen_mental_health;
 
-### 1. Depression Rate by Gender and Social Media Usage
+2. Depression Rate by Gender and Social Media Usage
 SELECT 
     gender,
     social_media_usage,
@@ -55,7 +55,7 @@ FROM teen_mental_health
 GROUP BY gender, social_media_usage
 ORDER BY depression_rate_pct DESC;
 
-### 3. Academic Performance vs Social Media Usage
+3. Academic Performance vs Social Media Usage
 
 SELECT 
     social_media_usage,
