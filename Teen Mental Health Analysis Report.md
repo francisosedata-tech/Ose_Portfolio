@@ -27,7 +27,7 @@ SELECT
     ROUND(AVG(screen_time_before_sleep), 2) AS avg_screen_time,
     ROUND(AVG(academic_performance), 2) AS avg_academic_performance,
     ROUND(COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*), 2) AS depression_rate_pct
-FROM teen_mental_health;```
+FROM teen_mental_health;```sql
 
 **2. Depression Rate by Gender and Social Media Usage**
 SELECT 
