@@ -74,5 +74,5 @@
 - Further analysis on causal factors and intervention effectiveness.
 
 **Tech Stack:** Power BI, DAX, Power Query, SQL  
-**View Full Report:** [Teen-Mental-Health-Analysis-Report.md](link-to-report)  
+**View Full Report:** [Teen-Mental-Health-Analysis-Report.md](https://github.com/francisosedata-tech/Ose_Portfolio/blob/90763196b88712c49edf6f839aaa13029e20c27f/Teen%20Mental%20Health%20Analysis%20Report.md)
 **Files:** [Project Folder](link-to-folder)
