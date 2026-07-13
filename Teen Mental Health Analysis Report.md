@@ -29,7 +29,40 @@ SELECT
     ROUND(COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*), 2) AS depression_rate_pct
 FROM teen_mental_health;
 
-## Key Metrics & Insights
+**2. Depression Rate by Gender and Social Media Usage**
+SELECT 
+    gender,
+    social_media_usage,
+    COUNT(*) AS teen_count,
+    AVG(depression_label) * 100 AS depression_rate_pct,
+    AVG(stress_level) AS avg_stress,
+    AVG(anxiety_level) AS avg_anxiety,
+    AVG(addiction_level) AS avg_addiction
+FROM teen_mental_health
+GROUP BY gender, social_media_usage
+ORDER BY depression_rate_pct DESC;
+
+**3. Academic Performance vs Social Media Usage**
+social_media_usage,
+    age_group,
+    AVG(academic_performance) AS avg_academic_performance,
+    AVG(sleep_hours) AS avg_sleep_hours,
+    COUNT(*) AS teen_count
+FROM teen_mental_health
+GROUP BY social_media_usage, age_group
+ORDER BY avg_academic_performance DESC;
+
+**4. High-Risk Teens Analysis**
+SELECT 
+    COUNT(*) AS high_risk_teens,
+    ROUND(AVG(stress_level), 2) AS avg_stress,
+    ROUND(AVG(anxiety_level), 2) AS avg_anxiety,
+    ROUND(AVG(addiction_level), 2) AS avg_addiction
+FROM teen_mental_health
+WHERE social_media_usage = 'High Usage';
+
+
+ Key Metrics & Insights
 - *Total Teens Analyzed:* 1,200
 - *Depression Rate:* 2.58%
 - *High Social Media Usage:* 42.58%
