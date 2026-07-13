@@ -27,9 +27,10 @@ SELECT
     ROUND(AVG(screen_time_before_sleep), 2) AS avg_screen_time,
     ROUND(AVG(academic_performance), 2) AS avg_academic_performance,
     ROUND(COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*), 2) AS depression_rate_pct
-FROM teen_mental_health;```sql
+FROM teen_mental_health;
 
 **2. Depression Rate by Gender and Social Media Usage**
+```sql
 SELECT 
     gender,
     social_media_usage,
@@ -43,6 +44,7 @@ GROUP BY gender, social_media_usage
 ORDER BY depression_rate_pct DESC;```
 
 **3. Academic Performance vs Social Media Usage**
+```sql
 social_media_usage,
     age_group,
     AVG(academic_performance) AS avg_academic_performance,
@@ -53,6 +55,7 @@ GROUP BY social_media_usage, age_group
 ORDER BY avg_academic_performance DESC;```
 
 **4. High-Risk Teens Analysis**
+```sql
 SELECT 
     COUNT(*) AS high_risk_teens,
     ROUND(AVG(stress_level), 2) AS avg_stress,
