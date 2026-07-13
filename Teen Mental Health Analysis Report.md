@@ -18,7 +18,7 @@ This analysis of 1,200 teens explores the interplay between *social media usage,
 
 I wrote the following SQL queries to explore and analyze the dataset:
 
-### 1. Overall Summary Statistics
+### Overall Summary Statistics
 *View:* [SQL-queries](https://github.com/francisosedata-tech/Ose_Portfolio/blob/8415fe9f445a40559c12267fb732d46f67d9a5a0/sql.queries.sql)
 
 ## Key Metrics & Insights
@@ -71,4 +71,4 @@ I wrote the following SQL queries to explore and analyze the dataset:
 
 *Francis Osewayeme*  
 Data Analyst | Transforming messy data into clear, actionable insights for business and social impact  
-[LinkedIn](https://www.linkedin.com/in/ose-francis-0a3796411) | [X @DataAnalystOse](https://x.com/DataAnalystOse) | [Email](mailto:francisose.data@gmail.com) | [WhatsApp](https://wa.me/2348162572994)
+[LinkedIn](https://www.linkedin.com/in/ose-francis-0a3796411) | [X @DataAnalystOse](https://x.com/DataAnalystOse) | [Email](mailto:francisose.data@gmail.com) 
