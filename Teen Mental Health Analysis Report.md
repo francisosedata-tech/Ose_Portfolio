@@ -27,6 +27,46 @@ This analysis examines the relationship between social media usage, academic per
 ![Teen Mental Wellbeing Dashboard](https://github.com/francisosedata-tech/Ose_Portfolio/blob/47d58b01bfd0474e0b2153b23a473c7f556e95bb/ccb740e6-9e5c-4ac6-8d8f-7a843d147e86.jpeg)  
 ![Academic Performance Dashboard](https://github.com/francisosedata-tech/Ose_Portfolio/blob/193e0502beac0891f8ffd0a3058ed32b7e7985e0/ede51689-394d-4ea4-b93a-70983466548a.jpeg)
 
+## SQL Queries Used
+
+Below are key SQL queries I wrote to explore and analyze the dataset:
+
+### 1. Overall Summary Statistics
+```sql
+SELECT 
+    COUNT(*) AS total_teens,
+    AVG(daily_social_media_hours) AS avg_social_media_hours,
+    AVG(sleep_hours) AS avg_sleep_hours,
+    AVG(screen_time_before_sleep) AS avg_screen_time,
+    AVG(academic_performance) AS avg_academic_performance,
+    COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*) AS depression_rate_pct
+FROM teen_mental_health;
+
+**### 2. Depression Rate by Gender and Social Media Usage**
+SELECT 
+    gender,
+    social_media_usage,
+    COUNT(*) AS teen_count,
+    AVG(depression_label) * 100 AS depression_rate_pct,
+    AVG(stress_level) AS avg_stress,
+    AVG(anxiety_level) AS avg_anxiety,
+    AVG(addiction_level) AS avg_addiction
+FROM teen_mental_health
+GROUP BY gender, social_media_usage
+ORDER BY depression_rate_pct DESC;
+
+**### 3. Academic Performance vs Social Media Usage**
+
+SELECT 
+    social_media_usage,
+    age_group,
+    AVG(academic_performance) AS avg_academic_performance,
+    AVG(sleep_hours) AS avg_sleep_hours,
+    COUNT(*) AS teen_count
+FROM teen_mental_health
+GROUP BY social_media_usage, age_group
+ORDER BY avg_academic_performance DESC;
+
 
 ## Recommendations
 - *Education Campaigns:* School programs on mindful social media use and sleep importance.
