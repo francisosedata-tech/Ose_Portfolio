@@ -1,0 +1,24 @@
+# Real Estate Growth Analysis Project
+
+## Project Overview
+Interactive Power BI dashboard analyzing real estate sales performance, revenue trends, customer churn, and agent effectiveness. Delivered actionable recommendations to improve retention and revenue stability.
+
+## Key Insights
+- Revenue growth of *24.25%* with strong peak in June 2022
+- Apartments lead in sales volume and average revenue
+- Churn rate: *42.69%* (significant retention opportunity)
+- Top performing agent: A00004 | Top city: Dhaka
+
+## Files in this Folder
+- Real-Estate-Growth-Analysis-Report.md → Full report
+- Images/ → Dashboard screenshots
+- Raw/processed data files (if available)
+
+## Skills Demonstrated
+- Power BI Dashboard Development
+- Power Query (Data Cleaning & Transformation)
+- DAX Measures
+- Business Insights & Stakeholder Recommendations
+
+## Links
+- [View Full Report](Real-Estate-Growth-Analysis-Report.md)
