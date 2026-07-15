@@ -21,4 +21,4 @@ Interactive Power BI dashboard analyzing real estate sales performance, revenue 
 - Business Insights & Stakeholder Recommendations
 
 ## Links
-- [View Full Report](Real-Estate-Growth-Analysis-Report.md)
+- [View Full Report](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/ec8a13cc15fd76d9c491650c23c0b0bb2607e414/Real-Estate-Growth-Analysis-Report.md)
