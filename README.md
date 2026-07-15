@@ -25,8 +25,7 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 ### Real Estate Growth Analysis Dashboard
 
 **Dashboard 1: Overview & Key Metrics**
-![Real Estate Growth Analysis Dashboard 1](https://github.com/francisosedata-tech/Ose_Portfolio/blob/af04c16a7c0aec037fed1a827160637a69979fb3/Screenshot%202026-06-12%20100710.png)
-
+![Real Estate Growth Analysis Dashboard 1](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/a0ba88be06484c3d88fb1713fbdbda6ef7563ce0/Images/Dashboard1.png)
 **Key Insights:**
 - Total Customers: 8K | Churned Customers: 3K | Churn Rate: 42.69%
 - Total Revenue: 54bn
